@@ -1,59 +1,269 @@
-<html>
-    <head>
+<!DOCTYPE html>
+<html lang="en">
 
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOE E-COMMERCE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
 <body>
-    <script>
-var arr=["zero","one","two","three","four","five","six","seven"];
-console.log(arr[1]);
-for (var i=0; i<=100;i+=2){
-    console.log(i);
-}
-var index=10;
-while (index<50) {
+    <!-- HEADER PART -->
+    <header class="bg-fresh-mint">
+        <nav class="navbar flex between container wrapper">
+            <ul class="navlist flex ">
+                <li><a href="#" class="link">Means</a></li>
+                <li><a href="#" class="link">Womens</a></li>
+                <li><a href="#" class="link">Kids</a></li>
+                <li><a href="#" class="link">Launch</a></li>
+            </ul>
 
-console.log(index);
-index++;
-}
-do {
-    console.log('dowhile loop do',index);
-index+=2;
-}while(index>60);
- 
+            <a href="#" class="logo">Shozi*</a>
 
-    function func(){
+            <ul class="navlist flex">
+                <li><a href="#" class="link">Search</a></li>
+                <li><a href="#" class="link">Draft</a></li>
+                <li><a href="#" class="link">Whishlist</a></li>
 
-var a=20;
-var b=30;
-var c=a+b;
-console.log(c);
-    }
-
-func();
-// functionm for adddition
-function addition (a,b){
-var c= a+b;
-console.log(c);
+            </ul>
 
 
-}
-addition(10.15);
-addition(20,58);
+            <a href="#" class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </a>
 
-function substraction(a,b,c){
-    var one= a-b;
-    var two= c-one;
-    console.log(two);
-}
 
-substraction(10,  12, 15);
-var array =["one","two","three","four","five","six","seven"];
-for (var i=0;i<array.lenght;i++){
-console.log(array[i])
-}
 
-</script>
+            <!-- MOBILE MENU -->
+
+            <ul class="mobile-list" id="menu">
+                <li><a href="#" class="link">Means</a></li>
+                <li><a href="#" class="link">Womens</a></li>
+                <li><a href="#" class="link">Kids</a></li>
+                <li><a href="#" class="link">Launch</a></li>
+                <li><a href="#" class="link">Search</a></li>
+                <li><a href="#" class="link">Draft</a></li>
+                <li><a href="#" class="link">Whishlist</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- SECTIONS PART -->
+    <main>
+        <section class="bg-fresh-mint hero-section">
+            <div class="hero-content">
+                <h1>Sneakers</h1>
+                <p class="mobile-para">
+                    Spring-Summer 2025 ready-to-wear
+                    collection shines with an aura of intrigue,
+                    capturing a defiant elegance
+                </p>
+                <img src="Asset/wavy-shape.png" class="wavy-shape">
+                <img src="Asset/green-sneakers.png" class="shoe">
+
+
+                <div class="hero-inner flex between wrapper">
+                    <div class="circle"></div>
+                    <p class="para">
+                        Spring-Summer 2025 ready-to-wear
+                        collection shines with an aura of intrigue,
+                        capturing a defiant elegance
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="cylinder">
+                <div class="cylinder-inner">
+                    <h4>Discount 50% out Now * Discount 50% out Now * Discount 50% out Now </h4>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="p-block wrapper">
+                <h2>
+                    dive into a world where every step is a
+                    statement of
+                    <div class="capsule">
+                        <img src="Asset/purple shoe.png">
+                    </div>
+                    style and comfort with our
+                    exquisite shoe brand
+                </h2>
+            </div>
+            <div class="cylinder">
+                <div class="cylinder-inner flex between wrapper gap">
+                    <div class="flex">
+                        <div class="profile">
+                            <img src="Asset/profile1 (1).jpeg">
+                        </div>
+                        <div class="profile">
+                            <img src="Asset/profile2 (1).jpeg">
+                        </div>
+                        <div class="profile">
+                            <img src="Asset/profile3 (1).jpeg">
+                        </div>
+
+                        <h5>100+ Testimonials</h5>
+                    </div>
+                    <a href="#" class="btn">pick your Sneakers</a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="p-block">
+                <div class="flex between container wrapper gap">
+                    <h3>
+                        By Sleek <br> Be Confident
+                    </h3>
+                    <p class="para">
+                        Spring-Summer 2025 ready-to-wear
+                        collection shines with an aura of intrigue,
+                        capturing a defiant elegance
+                    </p>
+                </div>
+                <div class="card-container flex wrapper">
+                    <div class="card">
+                        <img src="Asset/shoe1.png">
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="card">
+                        <img src="Asset/shoe2.png">
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="card">
+                        <img src="Asset/shoe3.png">
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                    <div class="card">
+                        <img src="Asset/shoe4.png">
+                        <a href="#" class="btn">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-fresh-mint">
+            <div class="p-block product">
+                <div class="flex between container wrapper gap">
+                    <h3>
+                        Our Products
+                    </h3>
+                    <p class="para">
+                        Spring-Summer 2025 ready-to-wear
+                        collection shines with an aura of intrigue,
+                        capturing a defiant elegance
+                    </p>
+                </div>
+
+                <div class="m-top">
+                    <div class="cylinder category">
+                        <div class="cylinder-inner flex between wrapper">
+                            <h4>Mens</h4>
+                            <a href="#" class="icon-btn">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="category-image">
+                            <img src="Asset/mens.jpeg">
+                        </div>
+                    </div>
+                    <div class="cylinder category">
+                        <div class="cylinder-inner flex between wrapper">
+                            <h4>Womens</h4>
+                            <a href="#" class="icon-btn">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="category-image">
+                            <img src="Asset/womens.jpeg">
+                        </div>
+                    </div>
+                    <div class="cylinder category">
+                        <div class="cylinder-inner flex between wrapper">
+                            <h4>Kids</h4>
+                            <a href="#" class="icon-btn">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="category-image">
+                            <img src="Asset/kids.jpeg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="p-block">
+                <div class="flex between container wrapper gap">
+                    <p class="para">
+                        Our Philosophy
+                    </p>
+                    <h3>
+                        We See shoes as more <br>
+                        than accessories
+                    </h3>
+                </div>
+
+                <div class="wrapper">
+                    <div class="intro-image flex m-top">
+                        <a href="#" class="btn">Watch our intro</a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER PART -->
+    <footer>
+        <div class="container">
+
+            <div class="cylinder ">
+                <div class="cylinder-inner flex between wrapper contact">
+                    <h4>contact us</h4>
+
+                    <a href="#" class="icon-btn">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+
+                    <img src="Asset/green-sneakers.png" class="contact-image">
+
+                </div>
+
+
+            </div>
+
+            <ul class="footer-list flex gap">
+                <li>
+                    <a href="#" class="footer-link">Mens</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Womens</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Kids</a>
+                </li>
+                <li>
+                    <a href="#" class="footer-link">Launch</a>
+                </li>
+            </ul>
+            <div class="copyright">
+                <p>
+                    &copy; 2025 All rights reserved
+                </p>
+
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
-
 
 </html>
